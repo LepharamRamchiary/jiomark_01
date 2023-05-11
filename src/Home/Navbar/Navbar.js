@@ -3,6 +3,7 @@ import React from 'react'
 
 
 const Navbar = () => {
+    // console.log(data)
     return (
         <div className=' bg-sky-600 text-white items-center  h-20  w-full p-3 flex space-x-2'>
             <div className='border-red-900 mx-11 p-2 cursor-pointer w-14 h-12 rounded-full hover:bg-sky-700 '>
