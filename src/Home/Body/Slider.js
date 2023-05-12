@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
 const Slider = () => {
   const images = [
     'https://www.jiomart.com/images/cms/aw_rbslider/slides/1683875837_Grand_Savings_on_Groceries.jpg',
@@ -43,7 +42,7 @@ const Slider = () => {
       >
         {'<'}
       </button>
-      <div className="flex-1 mx-4">
+      <div className="flex-1 mx-4 cursor-pointer">
         <div
           className="w-screen h-80 bg-center bg-no-repeat bg-cover"
           style={{ backgroundImage: `url(${images[currentImage]})` }}
