@@ -12,7 +12,7 @@ const Slider = () => {
     'https://www.jiomart.com/images/cms/aw_rbslider/slides/1683809878_Never_Before_Deals_Air_Conditioners.jpg',
     'https://www.jiomart.com/images/cms/aw_rbslider/slides/1683875837_Grand_Savings_on_Groceries.jpg',
     'https://www.jiomart.com/images/cms/aw_rbslider/slides/1683875873_Mega_Offers_On_Top_Fashion_Styles.jpg'
-    // Add more image URLs here
+  
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -35,7 +35,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center mt-10 w-full">
+    <div className="flex items-center justify-center mt-36 w-full overflow-hidden">
       <button
         className="absolute left-3 p-2 bg-slate-300 text-gray-500 h-10 w-10 rounded-full"
         onClick={previousImage}
