@@ -5,7 +5,7 @@ import React from 'react'
 const Navbar = () => {
     // console.log(data)
     return (
-        <div className=' bg-sky-600 text-white items-center  h-20  w-full p-3 flex space-x-2'>
+        <div className='navbar fixed top-0 bg-sky-600 text-white items-center  h-20  w-full p-3 flex space-x-2'>
             <div className='border-red-900 mx-11 p-2 cursor-pointer w-14 h-12 rounded-full hover:bg-sky-700 '>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
