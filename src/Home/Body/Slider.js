@@ -60,7 +60,7 @@ const Slider = () => {
     <div className="flex items-center justify-center mt-36 w-full overflow-hidden">
       {isNavbarVisible && (
         <button
-          className="absolute left-3 p-2 bg-slate-300 text-gray-500 h-10 w-10 rounded-full"
+          className="absolute left-3 bg-slate-200  h-12 w-12 rounded-full text-xl text-blue-800 font-bold"
           onClick={previousImage}
         >
           {'<'}
@@ -74,7 +74,7 @@ const Slider = () => {
       </div>
       {isNavbarVisible && (
         <button
-          className="absolute right-3 p-2 bg-slate-300 text-gray-500 h-10 w-10 rounded-full"
+          className="absolute right-3 bg-slate-200 h-12 w-12 rounded-full text-xl text-blue-800 font-bold"
           onClick={nextImage}
         >
           {'>'}
