@@ -46,4 +46,3 @@ function PosterHover() {
 }
 
 export default PosterHover;
-
