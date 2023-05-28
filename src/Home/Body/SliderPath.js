@@ -35,51 +35,74 @@ function SliderPath() {
   };
 
   return (
-    <div className="h-full w-full overflow-x-hidden">
+    <div className="h-full w-full overflow-x-hidden mt-3 ">
+      <h1 className='ml-10 text-xl font-bold'>Mega Deals on Electronics & Smartphones</h1>
       <Slider {...settings} ref={sliderRef}>
-        <div>
+        <div className='p-4'>
           <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+            className=""
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685031059_redmi_A2_desktop.jpg"
             alt="image 1"
-            className="w-2/3 mx-2"
           />
         </div>
-        <div>
+        <div className='p-4'>
           <img
-            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685211151_fridge.jpg"
             alt="image 2"
-            className="w-2/3 mx-2"
+            className=" "
           />
         </div>
-        <div>
+        <div className='p-4'>
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685121538_bestdealsontws.jpg"
             alt="image 3"
-            className="w-2/3 mx-2"
+            className=""
           />
         </div>
-        <div>
+        <div className='p-4'>
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685211172_laptop.jpg"
             alt="image 4"
-            className="w-2/3 mx-2"
+            className=""
           />
         </div>
-        <div>
+        <div className='p-4'>
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685121602_televisions.jpg"
             alt="image 5"
-            className="w-2/3 mx-2"
+            className=""
+          />
+        </div>
+
+        <div className='p-4'>
+          <img
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685211215_10.jpg"
+            alt="image 6"
+            className=""
+          />
+        </div>
+        <div className='p-4'>
+          <img
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685240787_ptron2.jpg"
+            alt="image 7"
+            className=""
+          />
+        </div>
+        <div className='p-4'>
+          <img
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685211191_vivoy33.jpg"
+            alt="image 6"
+            className=""
           />
         </div>
       </Slider>
 
-      <div className="flex justify-center mt-4">
-        <button onClick={previousSlide} className="bg-blue-500 text-white px-4 py-2 rounded mr-2">
-          Previous
+      <div className="flex justify-around  mt-4">
+        <button onClick={previousSlide} className="bg-blue-500 text-white px-4 py-2 rounded-full">
+          {"<"}
         </button>
-        <button onClick={nextSlide} className="bg-blue-500 text-white px-4 py-2 rounded">
-          Next
+        <button onClick={nextSlide} className="bg-blue-500 text-white px-4 py-2 rounded-full">
+          {">"}
         </button>
       </div>
     </div>
