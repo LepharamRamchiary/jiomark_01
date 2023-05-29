@@ -91,7 +91,28 @@ function SliderPath() {
         <div className='p-4'>
           <img
             src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685211191_vivoy33.jpg"
-            alt="image 6"
+            alt="image 8"
+            className=""
+          />
+        </div>
+        <div className='p-4'>
+          <img
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685372872_btsmartwatches.jpg"
+            alt="image 9"
+            className=""
+          />
+        </div>
+        <div className='p-4'>
+          <img
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685373007_must_have_accessories1.jpg"
+            alt="image 10"
+            className=""
+          />
+        </div>
+        <div className='p-4'>
+          <img
+            src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1685295640_kitchenappliances.jpg"
+            alt="image 11"
             className=""
           />
         </div>
